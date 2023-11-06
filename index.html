@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZaRa Clinic</title>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=YourSelectedFont" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="content.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+      integrity="sha512-lzilC+JFd6YV8+vQRNRtU7DOqv5Sa9Ek53lXt/k91HZTJpytHS1L6l1mMKR9K6VVoDt4LiEXaa6XBrYk1YhGTQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+
+    <!-- -------------------------menu-------------------- -->
+    <section class="menu" id="menu">
+      <div class="menu-content">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li>
+            <a href=""
+              >SERVICES <i class="bx bx-chevron-down"></i>
+              <div class="services">
+                <ul class="services-1">
+                  <li><a href="">URGENT CARE</a></li>
+                  <li><a href="">PRIMARY CARE</a></li>
+                  <li><a href="">INJURIES</a></li>
+                  <li><a href="">ILLNESSES</a></li>
+                  <li><a href="">IMMUNIZATIONS</a></li>
+                </ul>
+                <ul class="services-2">
+                  <li><a href="">PHYSICALS</a></li>
+                  <li><a href=""> OCCUPATIONAL HEALTH</a></li>
+                  <li><a href="">WOMENS SERVICES</a></li>
+                  <li><a href="">DOT PHYSICALS</a></li>
+                  <li><a href="">TRAVEL SERVICES</a></li>
+                </ul>
+              </div>
+            </a>
+          </li>
+          <li><a href="">INSURANCE & SELF-PAY</a></li>
+          <li><a href="">PROVIDERS</a></li>
+          <li><a href="">LOCATION</a></li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li>
+            <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bx-search"></i></a>
+          </li>
+          <li><button>MAKE AN APPOINTMENT</button></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ---------------------header-------------------- -->
+    <section class="header">
+      <div class="header-logo">
+        <a href=""><img src="img/Logo.png" alt="" /></a>
+      </div>
+
+      <div class="header-phone">
+        <i class="bx bx-phone-call"></i>
+        <p>0 (803) 851-0605</p>
+      </div>
+      <div class="header-time">
+        <i class="bx bx-stopwatch"></i>
+        <p>
+          Monday-Friday: 8:00AM-8:00PM <br />
+          Saturday-Sunday: 9:00AM-5:00PM
+        </p>
+      </div>
+      <div class="header-location">
+        <i class="bx bx-location-plus"></i>
+        <p>
+          1120 Sparkleberry Ext. Rd, <br />
+          Suite A, Columbia, SC
+        </p>
+      </div>
+    </section>
+
+
+    <!-- --------------------------main-------------------- -->
+    <section class="main">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="img/bg1.jpg" style="width: 100%" />
+            <div class="text-main">
+              <div class="text">
+                <h1>Professional Medical Services</h1>
+                <br />
+                <p>
+                  Professional and Compassionate Medical Services That Prioritize
+                  Your Health
+                </p>
+                <br />
+                <button>PATIENT PORTAL</button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="mySlides fade">
+            <img src="img/bg2.jpg" style="width: 100%" />
+            <div class="text-main">
+              <div class="text">
+                <h1>Immediate Heath Attention</h1>
+                <br />
+                <p>Reliable Medical Care for Your Immediate Heath Needs</p>
+                <br />
+                <button>MORE ABOUT US</button>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <img src="img/bg3.jpg" style="width: 100%" />
+            <div class="text-main">
+              <div class="text">
+                <h1>Effective Emergency Help</h1>
+                <br />
+                <p>
+                  Rapid and Effective Emergency Asisstance to Ensure Your
+                  Well-being
+                </p>
+                <br />
+                <button>MAKE AN APPOINTMENT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+  
+      <!-- ---------------------professional--------------------- -->
+      <section class="professional">
+        <div class="professional-left">
+          <a href=""><img src="img/icon2.png" style="width: 50px" alt="" /></a>
+          <h3>Emergency Medical Care</h3>
+          <br />
+          <p>
+            We have special equipment to give emergency help<br />
+            if/when necessary.
+          </p>
+        </div>
+        <div class="professional-center">
+          <a href=""><img src="img/icon1.jpg" style="width: 40px" alt="" /></a>
+          <h3>Professional Team</h3>
+          <br />
+          <p>
+            A Dedicated Team of Medical Professionals, Committed<br />to Your
+            Health and Well-being.
+          </p>
+        </div>
+        <div class="professional-right">
+          <a href=""><img src="img/icon3.png" style="width: 40px" alt="" /></a>
+          <h3>Modern Medical Devices</h3>
+          <p>
+            Professional equipment and laboratory are always at<br />
+            your service!
+          </p>
+        </div>
+      </section>
+      <!-- -----------------------welcome------------------- -->
+      <section class="welcome">
+        <div class="welcome-left">
+          <h5>Welcome</h5>
+  
+          <h4><span>ZaRa</span> is a progressive medical clinic</h4>
+          <p>
+            ZaRa epitomizes progressive medical care, blending tradition with
+            innovation. Discover a forward-thinking approach to healthcare at
+            ZaRa, where your well-being comes first. Experience the future of
+            medical excellence with ZaRa, your trusted partner in health. ZaRa is
+            your gateway to modern healthcare solutions, ensuring your journey to
+            wellness. Elevate your health journey with ZaRa, a symbol of
+            cutting-edge medical care.
+          </p>
+          <button>MORE ABOUT US</button>
+        </div>
+        <div class="slider">
+          <div class="slider-img">
+            <input type="radio" name="inputslider" id="img1" />
+            <input type="radio" name="inputslider" id="img2" />
+            <input type="radio" name="inputslider" id="img3" />
+            <input type="radio" name="inputslider" id="img4" />
+  
+            <img src="img/nến thơm.jpg" alt="img1" class="imgslider1" />
+  
+            <img
+              src="img/tinh-dau-oai-huong-banner.png"
+              alt="img2"
+              class="imgslider2"
+            />
+            <img src="img/masage1.jpg" alt="img3" class="imgslider3" />
+            <img
+              src="img/massagee 2.jpg"
+              alt="img4"
+              style="width: 450px"
+              class="imgslider4"
+            />
+          </div>
+          <div class="labelslider">
+            <label for="img1"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+          </div>
+        </div>
+      </section>
+  
+      <!-- -----------------------provide------------------- -->
+      <section class="provide">
+        <div class="provide-up">
+          <h4>What We Do</h4>
+          <h5>Services We Provide</h5>
+          <p>
+            Health care is the maintenance or improvement of health via the
+            diagnosis, <br />
+            treatment, and prevention of disease, illness, injury etc.
+          </p>
+        </div>
+        <div class="provide-down">
+          <div class="provide-down1">
+            <a href=""><img src="img/ser1.jpg" alt="" /></a>
+            <h6>Urgent Care</h6>
+            <p>
+              Affordable, physician-based healthcare at ZaRa. <br />
+              Accepting all insurances. Lower costs, same quality. <br />
+              Urgent Care you can trust.
+            </p>
+          </div>
+          <div class="provide-down1">
+            <a href=""><img src="img/ser2.jpg" alt="" /></a>
+            <h6>Primary Care</h6>
+            <p>
+              Comprehensive care at ZaRa. Preventive, primary, <br />
+              and urgent services. Expert referrals for specialty care. <br />
+              Trust our dedicated providers.
+            </p>
+          </div>
+          <div class="provide-down1">
+            <a href=""><img src="img/ser9.png" alt="" /></a>
+            <h6>Immunizations</h6>
+            <p>
+              ZaRa offers many recommended routine <br />
+              immunizations, including those required for enrollment <br />
+              in public schools.
+            </p>
+          </div>
+          <div class="provide-down1">
+            <a href=""><img src="img/ser4.png" alt="" /></a>
+            <h6>Illnesses</h6>
+            <p>
+              Efficient medical service, walk-ins welcome. Open 7 <br />days a
+              week, no appointment needed. Always a <br />provider available.
+            </p>
+          </div>
+          <div class="provide-down1">
+            <a href=""><img src="img/ser5.jpg" alt="" /></a>
+            <h6>Injuries</h6>
+            <p>
+              On-site injury care & Digital X-Rays for chest,<br />
+              abdomen, spine, and extremities. Fast and efficient <br />
+              service.
+            </p>
+          </div>
+          <div class="provide-down1">
+            <a href=""><img src="img/ser10.png" alt="" /></a>
+            <h6>Physical</h6>
+            <p>
+              Walk-in physical exams for all ages. Annual wellness, <br />
+              sports physicals, and more. Convenient and reliable <br />
+              service.
+            </p>
+          </div>
+        </div>
+        <button>ALL SERVICES</button>
+      </section>
+  
+  
+  
+      <!-- ---------------------------choose-------------------------------- -->
+      <section class="choose">
+        <div class="choose-left">
+          <img src="img/Choose.jpg" alt="" />
+        </div>
+        <div class="choose-right">
+          <h5>Why Us</h5>
+          <h6>Why Choose ZaRa?</h6>
+          <ul>
+            <li>Your one-stop Family & Urgent Care</li>
+            <li>Wait Time is minimal</li>
+            <li>Walk-Ins are welcome, No Appointment Needed</li>
+            <li>Easy & flexible online Appointment Booking</li>
+            <li>Convenient Hours (Mon.-Fri: 8am-8pm; Sat. & Sun: 9am-5pm</li>
+            <li>
+              On-site X-Rays, EKG, and labs (COVID, Flu, Strep, RSV, Urinalysis,
+              <br />
+              Pregnancy and more)
+            </li>
+            <li>Most Insurance Accepted</li>
+            <li>Affordable Self-Pay Options</li>
+          </ul>
+          <table>
+            <tr>
+              <th>3,000</th>
+              <th>50</th>
+              <th>15</th>
+              <th>100</th>
+            </tr>
+            <tr>
+              <td>Patients a <br> Year</td>
+              <td>People <br> Working</td>
+              <td>Years of <br>Experience</td>
+              <td>Satisfied <br>Patients</td>
+            </tr>
+          </table>
+          <button>MORE ABOUT OUR CLINIC</button>
+        </div>
+  
+      </section>
+  
+  
+  
+      <!-- ------------------------book-------------------- -->
+      <section class="book">
+        <div class="book1">
+          <h1>Standard Visit</h1>
+          <h2><span>$</span>100</h2>
+          <i class='bx bx-check-circle'></i><p>Office Visit with provider</p>
+          <i class='bx bx-check-circle'></i><p> Evaluation & Prescription</p>
+          <i class='bx bx-check-circle'></i><p> Review Care Plan</p>
+          <button>BOOK NOW</button>
+        </div>
+        <div class="book1">
+          <h1>Premium Visit</h1>
+          <h2><span>$</span>130</h2>
+          <i class='bx bx-check-circle'></i><p>Standard Visit Package</p>
+          <i class='bx bx-check-circle'></i><p> COVID-19 Testing</p>
+          <i class='bx bx-check-circle'></i> <p>In-house labs</p>
+          <i class='bx bx-check-circle'></i> <p>One X-Ray Exam</p>
+          <i class='bx bx-check-circle'></i> <p>Injectable medication</p>
+          <button>BOOK NOW</button>
+        </div>
+        <div class="book1">
+          <h1>Procedural Visit</h1>
+          <h2><span>$</span>180</h2>
+          <i class='bx bx-check-circle'></i><p>Abscess Drainage</p>
+          <i class='bx bx-check-circle'></i><p> Laceration Repair</p>
+          <i class='bx bx-check-circle'></i><p> Nail Removal</p>
+          <i class='bx bx-check-circle'></i> <p> Foreign body removal</p>
+          <i class='bx bx-check-circle'></i> <p>Fractures / dislocation</p>
+          <i class='bx bx-check-circle'></i> <p> EKG</p>
+          <button>BOOK NOW</button>
+        </div>
+        <div class="book1">
+          <h1>Comprehensive Visit</h1>
+          <h2><span>$</span>225</h2>
+          <i class='bx bx-check-circle'></i><p>Office Visit with provider</p>
+          <i class='bx bx-check-circle'></i> <p>Up to two X-Ray Exam</p>
+          <i class='bx bx-check-circle'></i> <p> IV Fluids</p>
+          <i class='bx bx-check-circle'></i> <p> Injectable medications</p>
+          
+          <i class='bx bx-check-circle'></i> <p> EKG</p>
+          <button>BOOK NOW</button>
+        </div>
+      </section>
+  
+<!-- ------------------staff-------------------------------------- -->
+<section class="staff">
+    <div class="staff-up">
+      <h1>Professional Team</h1>
+      <span>Our Medical Staff</span>
+      <p>Dedicated and skilled medical professionals at ZaRa are committed to your health and well-being. <br>
+        Our experienced medical staff at ZaRa is here for you</p>
+    </div>
+    <div class="staff-down">
+      <div class="staff-down-item"><img src="img/staff1.webp" alt="">
+        <p>Miranda Gaillard</p> 
+        <span>MSN, APRN, FNP-BC</span>
+        <div class="item">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+      <div class="staff-down-item"><img src="img/staff2.webp" alt="">
+        <p>Bassam Haddad</p>
+        <span>MD, CMO</span>
+        <div class="item">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-pinterest-alt'></i></a>
+          </a>
+        </div>        </div>
+      <div class="staff-down-item"><img src="img/staff3.webp" alt="">
+        <p>Makayla Cash</p>
+        <span>COO</span>
+        <div class="item">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-pinterest-alt'></i></a>
+          </a>
+        </div>  
+      </div>
+      <div class="staff-down-item"><img src="img/staff4.webp" alt="">
+        <p>Vinika Patel</p>
+        <span>FNP</span>
+        <div class="item">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+      <div class="staff-down-item"><img src="img/staff5.webp" alt="">
+        <p>Bhadrik Patel</p>
+        <span>MSPAC, CEO</span>
+        <div class="item">
+          <a href=""><i class='bx bxl-facebook'></i></a>
+          <a href=""><i class='bx bxl-twitter'></i></a>
+          <a href=""><i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <button class="staff-button">MEET OUT TEAM</button>
+  </section>
+
+
+  <!-- --------------------------clients----------------- -->
+  <section class="clients">
+    <div class="clients-up">
+      <h1>Our Happy Clients</h1>
+      <span>What Out Clients Say</span>
+    </div>
+    <div class="clients-down">
+      <div class="clients-down-left"> 
+        <h1>Excellent</h1>
+        <p><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></p>
+        <h2><span>Based on</span> 77 reviews</h2>
+        <img src="img/google.png"  style="width: 120px;" alt="">
+      </div>
+      <div class="clients-down-right">
+        
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/clients2.png" alt="">
+              <h1>Dedric Draggoo <br>
+                <span> 2023-08-09 </span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p class="text-container">Outstanding service, I have been here 2x’s and Dr. Patel will not leave you waiting or uninformed! The staff is kind <span class="read-more"> and very helpful. You will feel at home, and able to talk about any issues you have.</span></p>
+              <span class="read-more-btn">Read more</span>
+            </div>
+          </div>
+
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/clients1.png" alt="">
+              <h1>Sheila Cunningham
+                 <br>
+                <span> 2023-09-02</span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p >Nice staff. People friendly. Almost o wait time.</p>
+            </div>
+          </div>
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/clients3.png" alt="">
+              <h1>Alicia Williams<br>
+                <span> 2023-08-08</span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p  class="text-container">I can’t say enough about Dr Patel!! He is seriously the best. He treats us like family and Is always so great to see. <span class="read-more"> Never have to wait a million years like at other places. Gets us in and out and respects our time! He will always be my go to!! Every person who works here is great!! Thank you so much We Care Health y’all truly do CARE💕💯!!</span></p>
+              <span class="read-more-btn">Read more</span>
+            </div>
+          </div>
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/client4.png" alt="">
+              <h1>Ronald Boozer
+                <br>
+                <span> 2023-07-09</span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p  class="text-container">My wife and I had been looking for a primary care physician for a while. We ran across Dr Patel on accident. He is <span class="read-more">very personable, professional and easy to talk to. He just personally called me on a Sunday to discuss some blood work results. Needless to say, he’s our primary care physician now!</span> </p>
+              <span class="read-more-btn">Read more</span>
+            </div>
+          </div>
+
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/client5.png" alt="">
+              <h1>Laura Shuman<br><span> 2023-07-09</span></h1>
+              <p ><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p  class="text-container">Actually, I give them 10 stars. The first thing I loved is that you can make a same day appointment online instead of <span class="read-more"> reserving a place on the walk-in list like other prompt care places in the area. Everyone was friendly and helpful. Dr. Patel quickly diagnosed me for the primary reason that I was there but also spent quite a long time talking with me (but most importantly listening to me) regarding some other conditions that I have.</span></p>
+              <span class="read-more-btn">Read more</span>
+            </div>
+          </div>
+
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/client6.png" alt="">
+              <h1>Diane Boyd<br><span>2023-06-28</span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p  class="text-container">My mother and I met with Dr. Patel today and he was truly an
+                amazing person and doctor. He took his time <span class="read-more"> with my mom and was so kind and compassionate. I highly recommend Dr. Patel to anyone who is looking for a doctor in Northeast Columbia, whether it is for urgent care or primary care. I will definitely be back!</span></p>
+              <span class="read-more-btn">Read more</span>  
+              </div>
+          </div>
+
+          <div class="clients-down-right-icon">
+            <div class="clients-down-right-icon-up">
+              <img src="img/client7.png" alt="">
+              <h1>Morgan Magee<br><span>2023-06-02</span></h1>
+              <p><img src="img/google2.png" style="width: 25px;" alt=""></p>
+            </div>
+
+            <div class="clients-down-right-icon-down">
+              <h2><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i><i class='bx bx-star' ></i></h2>
+              <p >We were in and out in less than 30 minutes and received great care. Highly recommend going here for your urgent <span class="read-more"> care needs!</span></p>
+              <span class="read-more-btn">Read more</span>
+            </div>
+          </div>
+
+          
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------contact----------- -->
+  <section class="contact">
+    <div class="contact-left">
+      <div id="error"></div>
+      <form action="/" method="post" id="form">
+        
+        <h1>Stay Connected</h1>
+        <p>Contact ZaRa</p>
+        <label for="text"><input type="text" placeholder="Name" id="text"></label> <br>
+        <label for="email"><input type="text" placeholder="Email" id="email"></label> <br>
+        <label for="phone"><input type="tel" name="" id="phone" placeholder="Phone"></label> <br>
+        <textarea name="" id="" cols="30" rows="10">Messenge</textarea> <br>
+        <span>0/180 </span> <br>
+
+        <button type="submit">SEND MESSAGE</button>
+      
+      
+      </form>
+    </div>  
+    <div class="contact-right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9342.683960337166!2d-80.89169119926811!3d34.11722711368225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8abce4ced679f%3A0x1a05cb91363eab29!2s1120%20Sparkleberry%20Ln%20Ext%2C%20Columbia%2C%20SC%2029223%2C%20USA!5e0!3m2!1sen!2s!4v1698669041129!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- ---------------news----------------- -->
+  <nav class="news">
+    <div class="news-up">
+      <h1>Blog Posts</h1>
+      <p>Lastest News</p>
+    </div>
+    <div class="news-down">
+      <div class="news-down-1">
+        <div class="img1"><a href=""><img src="img/news.webp" alt=""></a></div>
+        <h1>ZaRa</h1>
+        <h2> <span>24</span> Nov</h2>
+        <h3>What are the early symptoms of Pregnancy?</h3>
+        <p>Do you think that you might be pregnant? A pregnancy test can be taken after your first missed period or…</p>
+        <button>Read More</button>
+      </div>
+      <div class="news-down-1">
+        <div class="img1"><a href=""><img src="img/news.webp" alt=""></a></div>
+        <h1>ZaRa</h1>
+        <h2><span>20</span> Nov</h2>
+        <h3>How much does a physical cost?</h3>
+        <p>It is easy to get a sports physical for your child at ZaRa with no appointment. Just walk in; we…</p>
+        <button>Read More</button>
+      </div>
+      <div class="news-down-1">
+        <div class="img1"><a href=""><img src="img/news.webp" alt=""></a></div>
+        <h1>ZaRa</h1>
+        <h2> <span>26</span> Oct</h2>
+        <h3>What are cuts and lacerations?</h3>
+        <p>Cuts are usually obvious, both visually and symptomatically. In many cases, tissue injury is minimal. Severe lacerations may extend through…</p>
+        <button type="submit">Read More</button>
+      </div>
+
+    </div>
+  </nav>
+<!-- ---------------------------scrolling-sign----------------------- -->
+  <div class="scrolling-sign">
+    <span id="date"></span> | <span id="time"></span> | <span id="location"></span>
+  </div>
+
+
+  <!-- ------------footer------- -->
+  <nav class="footer">
+    <div class="footer-1">
+      <a href=""><img src="img/Logo.png" alt=""></a>
+      <p>Treat with the best intention of each being at your heart. Surrender to the cause of serving. Life is not what we take, but what we leave behind while serving humanity</p>
+    </div>
+    <div class="footer-2">
+      <h1>Useful Links</h1>
+      <ul>
+        <li><i class='bx bx-chevron-right'></i><a href="">Careers</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Services</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Our Clinic</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Our Team</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Contact Us</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Patient Portal</a></li>
+        <li><i class='bx bx-chevron-right'></i><a href="">Book an <span>Appointment</span>  </a></li>
+      </ul>
+    </div>
+    <div class="footer-3">
+      <h1>Our Locations</h1>
+      <div class="footer-3-up">
+        <i class='bx bx-location-plus'></i><p>1120 Sparkleberry Lane Ext.,
+        Columbia, SC 29223
+        Phone: (803) 851-0605
+        Fax: 866-291-3617</p>
+      </div>
+      <div class="footer-3-down">
+        <i class='bx bx-location-plus'></i><p>129 S. Broad St. Clinton,
+          SC 29325 <br>
+          Phone: (864) 547-1245</p>
+      </div>
+    </div>
+    <div class="footer-4">
+      <div class="footer-4-up">
+        <i class='bx bx-location-plus'></i><p>2076 Woodruff Road,
+          Greenville, SC 29607
+          Phone: (864) 373-7246
+          Fax: 866-291-3617</p>
+      </div>
+      <div class="footer-4-down">
+        <i class='bx bx-location-plus'></i><p>103 Medical Sciences Dr,
+          Union, SC 29379
+          Phone: (864) 547-1294</p>
+      </div>
+    </div>
+  </nav>
+  <!-- -------------------------end------------------- -->
+  <section class="end">
+    <p>© 2023 - ZaRa Primary & Urgent Care</p>
+  </section>
+  <div id="visitor-count"></div>
+  
+</body>
+</html>  
+  
+  
+  
+  
+  
